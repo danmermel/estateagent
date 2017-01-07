@@ -1,0 +1,23 @@
+{
+  "name": "estateagent",
+  "version": "1.0.0",
+  "description": "LandReg blockchain thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "^2.1.2",
+    "cloudant": "^1.5.2",
+    "geojson-extent": "^0.3.2",
+    "mapshaper": "^0.3.38",
+    "request": "^2.78.0",
+    "simplify-geojson": "^1.0.3",
+    "web3": "^0.17.0-beta"
+  }
+}
